@@ -1,0 +1,29 @@
+<label
+    text="SEMANA DOS: CONTROLES"
+    FontSize="20"
+    HorizontalTextAligment="Center"
+    TextColor="Red"/>
+    
+    <Entry x:Name="txtDato1"
+           Placeholder="Ingrese Dato 1"
+           Keyboard="Numeric"
+           MaxLength="4"/>
+
+<Entry x:Name="txtDato2"
+       Placeholder="Ingrese Dato 2"
+       Keyboard="Numeric"
+       MaxLength="4"/>
+    
+<Picker x:Name="Pkt" Title="Ciudades">
+    <Picker.Items>
+        <x:String>Quito</x:String>
+        <x:String>Guayaquil</x:String>
+        <x:String>Cuenca</x:String>
+    </Picker.Items>
+</Picker>
+
+        <Button x:Name="BtnCalcular"
+        text="Calcular"
+        Clicked="btnCalcular_Clicked"/>
+    
+    
